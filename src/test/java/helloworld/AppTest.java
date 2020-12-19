@@ -10,5 +10,6 @@ class AppTest {
     @Test void appHasAGreeting() {
         App classUnderTest = new App();
         assertEquals(classUnderTest.getGreeting(),"Hello World!");
+        assertEquals(classUnderTest.getGreeting(),"Hello World!");
     }
 }
